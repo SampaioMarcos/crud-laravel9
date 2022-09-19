@@ -1,6 +1,34 @@
 
+# Aplicação web utilizando framework laravel 9 para fins didáticos utilizando:
+
+* PHP 
+* CSS
+* MYSQL
+* LARAVEL 
+* ELOQUENT
+* BOOTSTRAP
+* RESTFUL
+* MIDDLEWARE
+* DOCKER
+
+### RELACIONAMENTOS
+* User (1:N) Post
+* User (1:N) Comment
+## Autenticação Laravel Breeze!
+![tela-login](https://user-images.githubusercontent.com/46831962/191051598-875dee3f-606f-4e9f-8b44-b3ccfa035b43.png)
+
+## Formulário para cadastrar Post!
+![tela-cadastrar-post](https://user-images.githubusercontent.com/46831962/191047833-70c4c2c3-e17e-4764-9160-672b67fd2359.png)
+## Post Listados!
+![pagina-posts-listados-](https://user-images.githubusercontent.com/46831962/191048985-e0eb26bd-998d-4799-afb8-edc7a97d36c2.png)
+## Página de Detalhes!
+![tela-detalhaes](https://user-images.githubusercontent.com/46831962/191049426-ec995823-5ef5-4450-b6fa-6cfd485621d7.png)
+
+## Validação de campos do formulário de cadastro e atualização!
+![validaça](https://user-images.githubusercontent.com/46831962/191049707-cda632c2-32bd-4d55-aac4-79b06029921b.png)
+
+
 # Setup Docker Para Projetos Laravel 9 com PHP 8
-[Assine a Academy, e Seja VIP!](https://academy.especializati.com.br)
 
 ### Passo a passo
 Clone Repositório
@@ -34,8 +62,7 @@ cp .env.example .env
 
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
-APP_NAME=EspecializaTi
-APP_URL=http://localhost:8180
+APP_URL=http://localhost:8989
 
 DB_CONNECTION=mysql
 DB_HOST=mysql
@@ -79,4 +106,4 @@ php artisan key:generate
 
 
 Acesse o projeto
-[http://localhost:8180](http://localhost:8180)
+[http://localhost:8989](http://localhost:8989)
